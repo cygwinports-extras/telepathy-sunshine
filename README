@@ -4,21 +4,21 @@ A Telepathy connection manager with support for Gadu-Gadu network that
 handles basic GG 8 protocol features.
 
 Runtime requirements:
-  python-2.5.4-10
-  python-dbus-0.83.0-10
-  python-gobject2.0-2.20.0-1
-  python-telepathy-0.15.15-1
-  python-twisted-8.2.0-1
+  python-2.6.5-1
+  python-dbus-0.83.1-1
+  python-gobject2.0-2.20.0-2
+  python-telepathy-0.15.17-2
+  python-twisted-10.0.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.65-1
   automake1.11-1.11.1-1
-  cygport-0.9.80-1
+  cygport-0.9.83-1
   gawk-3.1.7-1
   make-3.81-2
   pkg-config-0.23b-10
-  sed-4.1.5-2
+  sed-4.2.1-1
 
 Canonical website:
   http://telepathy.freedesktop.org/wiki/
@@ -29,19 +29,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack telepathy-sunshine-0.1.5-X-src.tar.bz2
+  unpack telepathy-sunshine-0.1.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./telepathy-sunshine-0.1.5-X.cygport all
+  cygport ./telepathy-sunshine-0.1.7-X.cygport all
 
 This will create:
-  /usr/src/telepathy-sunshine-0.1.5-X-src.tar.bz2
-  /usr/src/telepathy-sunshine-0.1.5-X.tar.bz2
+  /usr/src/telepathy-sunshine-0.1.7-X-src.tar.bz2
+  /usr/src/telepathy-sunshine-0.1.7-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.1.7-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.1.5-1 -----
 Initial release for Cygwin 1.7.
