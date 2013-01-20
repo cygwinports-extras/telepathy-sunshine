@@ -1,5 +1,0 @@
-category: Net
-requires: python python-dbus python-gobject python-openssl python-telepathy python-twisted
-sdesc: "Telepathy Gadu-Gadu connection manager"
-ldesc: "A Telepathy connection manager with support for Gadu-Gadu 
-network that handles basic GG 8 protocol features."
